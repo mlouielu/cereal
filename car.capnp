@@ -178,6 +178,7 @@ struct CarState {
   regenBraking @45 :Bool; # this is user pedal only
   parkingBrake @39 :Bool;
   brakeHoldActive @38 :Bool;
+  brakeOn @50 :Bool;      # including ACC braking
 
   # steering wheel
   steeringAngleDeg @7 :Float32;
