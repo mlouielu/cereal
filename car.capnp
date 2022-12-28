@@ -194,6 +194,10 @@ struct CarState {
   espDisabled @32 :Bool;
   accFaulted @42 :Bool;
 
+  # radar
+  hasVehicleLead @51 :Bool;
+  radarContact @52 :Bool;
+
   # cruise state
   cruiseState @10 :CruiseState;
 
