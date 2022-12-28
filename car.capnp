@@ -195,6 +195,10 @@ struct CarState {
   accFaulted @42 :Bool;
   carFaultedNonCritical @47 :Bool;  # some ECU is faulted, but car remains controllable
 
+  # radar
+  hasVehicleLead @51 :Bool;
+  radarContact @52 :Bool;
+
   # cruise state
   cruiseState @10 :CruiseState;
 
